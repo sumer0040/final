@@ -1,0 +1,45 @@
+.home>p {color: #000000;}
+
+.table {
+  width: auto;
+  border: 1px solid #000000;}
+
+.book-detail {
+  display: inline-block;
+  padding: 10px;
+  color: #000000;
+}
+
+.list-books{
+  width: fit-content;
+  border: 1px solid #000000;
+}
+
+.list-book {
+  display: flex;
+  padding: 14px;
+  border: 1px solid #000000;
+}
+
+/*new css*/
+.navigation-bar {
+  color: black;
+  margin-top: auto;
+  margin-left: auto;
+}
+.adding p {
+  font-weight: 400;
+  display: block;
+  margin-bottom: 12px;
+}
+.delete-book-all a {
+  padding: 3px;
+  margin-left: 10px;
+  border: 1px solid black;
+  
+}
+.delete-book-single
+{
+  padding: 3px;
+  margin-left: 10px;
+}

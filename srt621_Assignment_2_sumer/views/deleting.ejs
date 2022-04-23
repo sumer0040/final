@@ -1,0 +1,17 @@
+<script>
+	const deleteABook = (x,divert) => {x.preventDefault();
+	prompt = confirm("Confirm : You Want to Delete selected Book!");
+	if (prompt==true) {window.location.href = divert;}}
+</script>
+<div class="main">
+<p>For Deleting a BOOK click on Del </p>
+<div class="delete-book-all">
+{{#each books}}
+<div class="delete-book-single">
+<a onclick="deleteABook(event,'/Delete/{{bookNumber}}')">Del</a>{{bookName}}
+<br>
+<br>
+</div>
+{{/each}}
+</div>
+</div>
